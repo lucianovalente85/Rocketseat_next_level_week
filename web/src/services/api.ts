@@ -5,5 +5,3 @@ const api = axios.create({
 });
 
 export default api;
-
-// 1:19:47
