@@ -53,8 +53,6 @@ Depois de todas as dependências instaladas, vamos criar uma pasta 'src' que vai
 No arquivo 'package.json', vamos configurar o script para rodar o servidor pelo TS-Node-Dev e também já vamos aproveitar para criar um script de criação de migrations pelo Knex.
 O TS-Node-Dev vai compilar nossos arquivos .ts (mesma função do TSC) e também reiniciar o projeto quando o arquivo é modificado (mesma função de um Nodemom, por exemplo).
 
-<img src="https://ik.imagekit.io/dxwebster/Screenshot_2_UJfmFC1Zf.png" />
-
 - A partir de agora, para iniciar o servidor, basta executar `yarn dev:server`
 - E quando formos criar nossas migrations, utilizaremos o comando `knex:migrate`
 
